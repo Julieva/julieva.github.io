@@ -1,0 +1,438 @@
+/*tekstopmaak tekst van body*/
+
+body {
+font-family: 'calibri', 'sans-serif';
+}
+
+
+/*opmaak van header*/
+#home{
+font-size: 50px;
+background-image:url('achtergrond.jpg');
+height: 100px;
+color: #ffff00;	
+font-family: calibri, sans-serif;
+border-bottom: solid 4px;
+padding-top: 30px;
+}
+
+#mezelf{
+font-size: 50px;
+background-image:url('achtermezelf.jpg');
+height: 100px;
+color: #ffff00;	
+font-family: calibri, sans-serif;
+border-bottom: solid 4px;
+padding-top: 30px;	
+}
+
+#hobby{
+font-size: 50px;
+background-image:url('achterhobby.jpg');
+height: 100px;
+color: #ffff00;	
+font-family: calibri, sans-serif;
+border-bottom: solid 4px;
+padding-top: 30px;	
+}
+
+#projecten{
+font-size: 50px;
+background-image:url('achtergrondprojecten.jpg');
+height: 100px;
+color: #ffff00;	
+font-family: calibri, sans-serif;
+border-bottom: solid 4px;
+padding-top: 30px;
+}
+
+#toekomst{
+font-size: 50px;
+background-image:url('achtertoekomst.jpg');
+height: 100px;
+color: #ffff00;	
+font-family: calibri, sans-serif;
+border-bottom: solid 4px;
+padding-top: 30px;	
+}
+
+#muziek{
+font-size: 50px;
+background-image:url('achtermuziek.jpg');
+height: 100px;
+color: #ffff00;	
+font-family: calibri, sans-serif;
+border-bottom: solid 4px;
+padding-top: 30px;		
+}
+
+#sport{
+font-size: 50px;
+background-image:url('achtersport.jpg');
+height: 100px;
+color: #ffff00;	
+font-family: calibri, sans-serif;
+border-bottom: solid 4px;
+padding-top: 30px;		
+}
+
+#humor{
+font-size: 50px;
+background-image:url('achterhumor.jpg');
+height: 100px;
+color: #ffff00;	
+font-family: calibri, sans-serif;
+border-bottom: solid 4px;
+padding-top: 30px;	
+}
+
+ /* tekts opmaak */
+ 
+#welkom{
+text-align: center;
+font-family: calibri, sans-serif;
+font-size: 18px;
+padding-top: 200px;
+padding-bottom: 200px;
+}
+
+
+#hoby{
+font-family: 'calibri', 'sans-serif';
+padding-top: 15px;
+}
+
+#project{
+font-family: 'calibri', 'sans-serif';
+padding-top: 80px;
+}
+
+#plannen{
+font-family: 'calibri', 'sans-serif';
+padding-top: 80px;
+}
+
+#songs{
+text-align: center;
+font-family: 'calibri', 'sans-serif';
+padding-top: 200px;
+padding-bottom: 200px;
+}
+
+#sporten{
+font-family: 'calibri', 'sans-serif';
+padding-top: 80px;
+}
+
+#fragment{
+font-family: 'calibri', 'sans-serif';
+padding-top: 80px;
+}
+
+#kop{
+font-size: 25px;
+font-family: 'calibri', 'sans-serif';
+color: #909090;
+}
+
+
+/*opmaak van navigatie*/
+
+nav {
+  background-color: #c0c0c0;
+  color: #000000;
+  display: block;
+}
+
+nav ul {
+background-color: #c0c0c0;
+list-style: none;
+height: 44px;
+padding: 10px 5px;
+float: left;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style-type: none;
+  transition: all 0.2s;
+}
+
+nav > ul > li > a {
+display: block;
+  width: 210px;
+  height: 40px;
+  line-height: 53px;
+  padding: 0px;
+  font-size: 18px;
+  font-family: 'calibri', 'sans-serif';
+  font-weight: lighter;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+  transition: .2s all linear;
+  border-bottom: 4px solid #ffff00;
+}
+
+
+
+nav > ul > li:nth-child(1)> a:hover{
+  border-bottom: 35px solid #ffff00;
+  height: 9px;
+}
+nav > ul > li:nth-child(2)> a:hover{
+  border-bottom: 35px solid #ffff00;
+  height: 9px;
+}
+nav > ul > li:nth-child(3)> a:hover{
+  border-bottom: 35px solid #ffff00;
+  height: 9px;
+}
+nav > ul > li:nth-child(4)> a:hover{
+  border-bottom: 35px solid #ffff00;
+  height: 9px;
+}
+nav > ul > li:nth-child(5)> a:hover{
+  border-bottom: 35px solid #ffff00;
+  height: 9px;
+}
+
+nav > ul > li:nth-child(6)> a:hover{
+  border-bottom: 35px solid #ffff00;
+  height: 9px;
+}
+
+nav > ul > li:nth-child(7)> a:hover{
+  border-bottom: 35px solid #ffff00;
+  height: 9px;
+}
+
+nav > ul > li > a > .submenu {
+  border-top: 4px solid #c0c0c0;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+  content: "";
+  display: inline-block;
+  height: 0;
+  width: 0;
+  vertical-align: center;
+  transition: color 0.1s linear;
+}
+
+nav > ul > li:hover > a > .submenu {
+  border-top-color: #ffff00;
+}
+
+nav > ul > li > div ul > li {
+  display: block;
+}
+
+nav > ul > li > div ul > li > a {
+  display: block;
+  padding: 0px 65px;
+  text-decoration: none;
+  color: #000000;
+}
+
+nav > ul > li > div ul > li:hover > a {
+  background-color: #ffff00;
+}
+
+/* opmaak submenu */
+nav > ul > li > div {
+  background-color: #c0c0c0;
+  border-top: 0;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 2px 2px -1px #c0c0c0;
+  margin: 0;
+  width: 165px;
+  position: absolute;
+  opacity: 0;
+  display: none;
+  visibility: hidden;
+  z-index: 100;
+  transition: opacity 0.2s;
+  font-size: 18px;
+  font-family: calibri, sans-serif;
+  font-weight: lighter;
+  text-align: left;
+}
+
+nav > ul > li:hover > div {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
+/* opmaak footer */
+footer{
+background-color: #c0c0c0;
+text-align: 10px;
+padding: 10px;
+font-family: 'calibri', 'sans-serif';
+}
+
+#titelfooter{
+color: #000000;
+text-align: left;
+}
+
+
+#table1{
+padding: 5px 40px 5px 5px;
+font-family: 'calibri', 'sans-serif';
+width: 50%;
+margin: 0px 0px 0px 20px;
+text-align: left;
+}
+
+#link{
+text-decoration: none;
+color: #000000;
+}
+
+#foto3{
+height: 200px;
+weight: 175px;
+float: right;
+}
+/*pagina home*/
+
+#foto1 {
+padding-top: 25px;
+height: 250px;
+weight: 175px;
+float: left;
+}
+
+#foto2 {
+padding-top: 25px;
+height: 250px;
+weight: 175px;
+float: right;
+}
+
+/*pagina mezelf (tabel)*/
+
+#eigenschappen{
+position: left;
+font-family: 'calibri', 'sans-serif';
+width: 50%;
+}
+
+th{
+color: #909090;
+font-family:  'calibri', 'sans-serif';	
+font-size: 18px;
+text-align: left;
+}
+
+#ikenmama{
+padding-top: 20px;
+padding-bottom: 20px;
+text-align: left;
+}
+#lobke{
+padding-left: 100px;
+padding-top: 20px;
+padding-bottom: 20px;
+text-align: left;
+
+}
+#lisa{
+padding-left: 280px;
+padding-bottom: 20px;
+text-align: left;
+
+}
+#neefennicht{
+text-align: left;
+padding-left: 450px;
+padding-bottom: 20px;
+
+}
+
+/* pagina hobby */
+#foto4{
+padding-top: 30px;
+padding-bottom: 30px;
+padding-right: 95px;
+	
+}
+
+#cel2{
+text-align: center;
+}
+
+#foto5{
+padding-top: 30px;
+padding-bottom: 30px;
+float: right;
+padding-left: 95px;
+}
+
+/*pagina projecten*/
+ 
+ #voorbeelden{
+ width: 100%;
+ position: center;
+ padding-top: 20px;
+padding-bottom: 20px;
+ }
+ 
+ #kolom2{
+text-align: center;
+	
+ }
+ 
+ #kolom3 {
+text-align: right;
+ }
+
+ /*pagina toekomst*/
+ 
+#plannenhobby{
+padding-bottom: 50px;
+}
+
+/*pagina sport*/
+img{
+height: 275px;
+width; 200px;
+}
+
+#cel5{
+position: left;
+padding-bottom: 20px;
+padding-top: 20px;
+padding-right: 170px;
+}
+
+#cel6{
+position: center;
+padding-bottom: 20px;
+padding-top: 20px;
+}
+
+#cel7{
+position: right;
+padding-bottom: 20px;
+padding-top: 20px;
+padding-left: 170px;
+}
+
+/*pagina muziek*/
+#foto6{
+padding-bottom: 40px;
+padding-top: 40px;
+padding-right: 20px;
+float: right;
+}
+
+tabel{
+position: center;
+text-align: left;
+font-family: 'calibri', 'sans-serif';
+width: 100%
+}
+
